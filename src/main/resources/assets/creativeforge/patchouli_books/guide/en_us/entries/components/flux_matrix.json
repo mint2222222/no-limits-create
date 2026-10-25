@@ -1,0 +1,29 @@
+{
+  "name": "Flux Matrix",
+  "icon": "creativeforge:flux_matrix",
+  "category": "creativeforge:components",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "creativeforge:flux_matrix",
+      "text": "A denser lattice with a cool zinc glow. The heaviest part by count in the final grids."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Sequenced assembly$() on a $(item)Flux Alloy$(), 3 loops of:$(li)deploy Resonant Lattice$(li)deploy Quantum Circuit$(li)press$(li)fill 500 mB lava"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Total per matrix: $(li)1 Flux Alloy$(li)3 Resonant Lattice$(li)3 Quantum Circuit$(li)1500 mB lava"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "creativeforge:components/resonant_lattice",
+        "creativeforge:components/quantum_circuit",
+        "creativeforge:components/flux_alloy"
+      ]
+    }
+  ]
+}

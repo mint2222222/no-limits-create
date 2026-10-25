@@ -1,0 +1,12 @@
+{
+  "name": "Known Limits",
+  "icon": "minecraft:structure_void",
+  "category": "creativeforge:rules",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The cap only covers mechanical crafters. These bypass it:$(li)/give and the creative inventory$(li)loot, structures and mods that create items directly$(li)other mods' recipes for these items (the audit reports them, but does not block them)$(br2)JEI still shows the recipes after a cap is reached."
+    }
+  ]
+}

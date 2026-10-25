@@ -1,0 +1,63 @@
+{
+  "name": "Crafter Grids",
+  "icon": "create:mechanical_crafter",
+  "category": "creativeforge:creative",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Each grid picture is one mechanical crafter per square. Our parts are drawn as icons; Create parts as letters:$(li)V Item Vault$(li)T Fluid Tank$(li)B Blaze Cake$(li)C Chromatic Compound$(li)R Refined Radiance$(li)S Shadow Steel$(br2)Grey squares are empty.",
+      "title": "Legend"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Point every crafter's arrow along a chain that ends in one crafter; that one outputs. Crafters only turn from a $(l)cogwheel$() touching one of them, not a shaft behind.$(br2)Mirrored layouts are not accepted.",
+      "title": "Building a Grid"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "creativeforge:textures/gui/guide/grid_creative_crate.png"
+      ],
+      "title": "Crate",
+      "border": true,
+      "text": "5x5, all 25 crafters filled."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "creativeforge:textures/gui/guide/grid_creative_fluid_tank.png"
+      ],
+      "title": "Fluid Tank",
+      "border": true,
+      "text": "5x5, all 25 filled."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "creativeforge:textures/gui/guide/grid_creative_motor.png"
+      ],
+      "title": "Motor",
+      "border": true,
+      "text": "7x7, all 49 filled."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "creativeforge:textures/gui/guide/grid_creative_blaze_cake.png"
+      ],
+      "title": "Blaze Cake",
+      "border": true,
+      "text": "7x7, all 49 filled."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "creativeforge:textures/gui/guide/grid_handheld_worldshaper.png"
+      ],
+      "title": "Worldshaper",
+      "border": true,
+      "text": "8x8, four empty corners."
+    }
+  ]
+}

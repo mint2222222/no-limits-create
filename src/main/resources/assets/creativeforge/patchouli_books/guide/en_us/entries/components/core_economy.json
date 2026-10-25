@@ -1,0 +1,18 @@
+{
+  "name": "Core Economy",
+  "icon": "create:refined_radiance",
+  "category": "creativeforge:components",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "One attempt costs:$(li)1 Chromatic Compound$(li)3 Quantum Circuit$(li)3 Flux Matrix$(li)3000 mB lava$(li)3 Refined Radiance$(li)3 Shadow Steel$(br2)A core drops 40% of the time, so expect about 2.5 attempts per core.",
+      "title": "Cost per Attempt"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Per core, on average, the failures give back:$(li)0.5 Refined Radiance$(li)0.5 Shadow Steel$(li)0.5 Flux Alloy$(br2)Feed failures back in. It is still a net loss: an attempt uses 6 radiance and shadow steel, and returns at most 1.",
+      "title": "Recycling"
+    }
+  ]
+}

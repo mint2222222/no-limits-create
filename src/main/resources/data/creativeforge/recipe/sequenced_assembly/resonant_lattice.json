@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:sturdy_sheet"
+  },
+  "loops": 4,
+  "transitional_item": {
+    "id": "creativeforge:incomplete_resonant_lattice"
+  },
+  "results": [
+    {
+      "id": "creativeforge:resonant_lattice"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_resonant_lattice"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_resonant_lattice"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_resonant_lattice"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_resonant_lattice"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_resonant_lattice"
+        },
+        {
+          "item": "create:brass_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_resonant_lattice"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_resonant_lattice"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_resonant_lattice"
+        }
+      ]
+    }
+  ]
+}

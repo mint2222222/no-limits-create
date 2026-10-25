@@ -1,0 +1,125 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:chromatic_compound"
+  },
+  "loops": 3,
+  "transitional_item": {
+    "id": "creativeforge:incomplete_singularity_core"
+  },
+  "results": [
+    {
+      "id": "creativeforge:singularity_core",
+      "chance": 40.0
+    },
+    {
+      "id": "create:refined_radiance",
+      "chance": 20.0
+    },
+    {
+      "id": "create:shadow_steel",
+      "chance": 20.0
+    },
+    {
+      "id": "creativeforge:flux_alloy",
+      "chance": 20.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_singularity_core"
+        },
+        {
+          "item": "creativeforge:quantum_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_singularity_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_singularity_core"
+        },
+        {
+          "item": "creativeforge:flux_matrix"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_singularity_core"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_singularity_core"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_singularity_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_singularity_core"
+        },
+        {
+          "item": "create:refined_radiance"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_singularity_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_singularity_core"
+        },
+        {
+          "item": "create:shadow_steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_singularity_core"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_singularity_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_singularity_core"
+        }
+      ]
+    }
+  ]
+}

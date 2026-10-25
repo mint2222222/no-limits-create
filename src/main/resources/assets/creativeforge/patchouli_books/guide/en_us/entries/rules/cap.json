@@ -1,0 +1,16 @@
+{
+  "name": "How the Cap Works",
+  "icon": "minecraft:barrier",
+  "category": "creativeforge:rules",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Each world keeps one counter per capped item, saved with the world (not per player).$(br2)It counts items $(l)made$(), not items that exist. A destroyed, burnt or voided creative item is $(l)never refunded$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The cap is checked at the mechanical crafter when the craft completes. If the item is disabled or the cap is reached, the craft is refused and the crafter ejects its whole grid, so $(l)the inputs are kept$() (they drop as items in front of the crafters).$(br2)Uncapped items are only checked for being enabled."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Tiers and Caps",
+  "icon": "create:creative_motor",
+  "category": "creativeforge:rules",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Default caps per world:$(li)Creative Crate: 3$(li)Creative Fluid Tank: 4$(li)Creative Motor: 20$(li)Blaze Cake: uncapped$(li)Worldshaper: uncapped$(br2)These are defaults. The server config can lower them or disable any item.",
+      "title": "Defaults"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Config limits: crate 0-3, fluid tank 0-5, motor 0-20. The config cannot raise a cap above these."
+    }
+  ]
+}

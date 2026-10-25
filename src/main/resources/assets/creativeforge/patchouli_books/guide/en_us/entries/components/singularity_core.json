@@ -1,0 +1,31 @@
+{
+  "name": "Singularity Core",
+  "icon": "creativeforge:singularity_core",
+  "category": "creativeforge:components",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "creativeforge:singularity_core",
+      "text": "The gate. Needed by the creative crate, fluid tank and motor. Each attempt can fail."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Sequenced assembly$() on a $(item)Chromatic Compound$(), 3 loops of:$(li)deploy Quantum Circuit$(li)deploy Flux Matrix$(li)fill 1000 mB lava$(li)deploy Refined Radiance$(li)deploy Shadow Steel$(li)press"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Each finished attempt gives $(l)one$() result from this pool:$(li)40% Singularity Core$(li)20% Refined Radiance$(li)20% Shadow Steel$(li)20% Flux Alloy",
+      "title": "Result Pool"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "creativeforge:components/core_economy",
+        "creativeforge:creative/creative_crate",
+        "creativeforge:creative/creative_fluid_tank",
+        "creativeforge:creative/creative_motor"
+      ]
+    }
+  ]
+}

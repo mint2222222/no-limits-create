@@ -1,0 +1,16 @@
+{
+  "name": "FAQ",
+  "icon": "minecraft:book",
+  "category": "creativeforge:rules",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Why was my craft refused?$()$(br)The item is disabled in the config, or this world already made its cap. Check /creativeforge counts.$(br2)$(l)Did I lose the inputs?$()$(br)No. The grid is ejected in front of the crafters. Pick it up before it despawns (5 minutes)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Can I get a slot back if a crate is destroyed?$()$(br)Not by itself: the counter counts items made. An admin can lower it with /creativeforge set.$(br2)$(l)What does /creativeforge set do?$()$(br)It overwrites the counter for one item, for example after a rollback."
+    }
+  ]
+}

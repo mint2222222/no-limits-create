@@ -1,0 +1,24 @@
+{
+  "name": "Flux Alloy",
+  "icon": "creativeforge:flux_alloy",
+  "category": "creativeforge:components",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "creativeforge:flux_alloy",
+      "text": "$(l)Superheated mixing$(): 1 Refined Radiance, 1 Shadow Steel, 2 Brass Ingot, giving 2 Flux Alloy."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Flux Alloy is the starting item of every $(l:creativeforge:components/flux_matrix)Flux Matrix$(/l). It also comes back as a failed result of the Singularity Core, so it can be fed straight back in."
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "creativeforge:start/raw_materials",
+        "creativeforge:components/flux_matrix"
+      ]
+    }
+  ]
+}

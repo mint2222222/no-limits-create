@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:polished_rose_quartz"
+  },
+  "loops": 5,
+  "transitional_item": {
+    "id": "creativeforge:incomplete_chromatic_compound"
+  },
+  "results": [
+    {
+      "id": "create:chromatic_compound"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_chromatic_compound"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_chromatic_compound"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_chromatic_compound"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_chromatic_compound"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_chromatic_compound"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_chromatic_compound"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_chromatic_compound"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_chromatic_compound"
+        }
+      ]
+    }
+  ]
+}

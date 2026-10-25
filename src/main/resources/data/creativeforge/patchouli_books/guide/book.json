@@ -1,0 +1,20 @@
+{
+  "name": "Creative Forge",
+  "subtitle": "Field Manual",
+  "landing_text": "$(l)Engineer,$()$(br)this manual covers the long road from brass and andesite to Create's $(l)creative$() items.$(br2)Every number in here comes from this mod's real recipes. Start with $(l:creativeforge:start/getting_started)Getting Started$(/l).",
+  "use_resource_pack": true,
+  "show_progress": false,
+  "i18n": false,
+  "creative_tab": "creativeforge:main",
+  "model": "creativeforge:guide_book",
+  "book_texture": "patchouli:textures/gui/book_gray.png",
+  "filler_texture": "creativeforge:textures/gui/guide/filler.png",
+  "index_icon": "creativeforge:singularity_core",
+  "text_color": "2b3635",
+  "header_color": "7a3f1d",
+  "nameplate_color": "fbcc68",
+  "link_color": "b5692d",
+  "link_hover_color": "e09a3c",
+  "progress_bar_color": "d3a155",
+  "progress_bar_background": "4a5451"
+}

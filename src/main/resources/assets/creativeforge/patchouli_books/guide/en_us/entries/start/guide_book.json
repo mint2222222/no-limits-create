@@ -1,0 +1,13 @@
+{
+  "name": "This Guide Book",
+  "icon": "minecraft:book",
+  "category": "creativeforge:start",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "creativeforge:guide_book",
+      "text": "Shapeless: 1 book + 1 andesite alloy. Nothing in the book is locked."
+    }
+  ]
+}

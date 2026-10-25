@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:electron_tube"
+  },
+  "loops": 3,
+  "transitional_item": {
+    "id": "creativeforge:incomplete_quantum_circuit"
+  },
+  "results": [
+    {
+      "id": "creativeforge:quantum_circuit"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_quantum_circuit"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_quantum_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_quantum_circuit"
+        },
+        {
+          "item": "create:transmitter"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_quantum_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_quantum_circuit"
+        },
+        {
+          "type": "neoforge:tag",
+          "tag": "c:honey",
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_quantum_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_quantum_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_quantum_circuit"
+        }
+      ]
+    }
+  ]
+}

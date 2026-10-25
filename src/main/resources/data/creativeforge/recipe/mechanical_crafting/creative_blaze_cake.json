@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "show_notification": false,
+  "key": {
+    "M": {
+      "item": "creativeforge:flux_matrix"
+    },
+    "Q": {
+      "item": "creativeforge:quantum_circuit"
+    },
+    "L": {
+      "item": "creativeforge:resonant_lattice"
+    },
+    "B": {
+      "item": "create:blaze_cake"
+    },
+    "C": {
+      "item": "create:chromatic_compound"
+    }
+  },
+  "pattern": [
+    "BLQCQLB",
+    "LMQMQML",
+    "QQMCMQQ",
+    "CMCMCMC",
+    "QQMCMQQ",
+    "LMQMQML",
+    "BLQCQLB"
+  ],
+  "result": {
+    "id": "create:creative_blaze_cake",
+    "count": 1
+  }
+}

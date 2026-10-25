@@ -1,0 +1,6 @@
+{
+  "name": "Caps and Admin",
+  "description": "How the per-world caps work, commands, config and FAQ.",
+  "icon": "minecraft:command_block",
+  "sortnum": 3
+}

@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "creativeforge:flux_alloy"
+  },
+  "loops": 3,
+  "transitional_item": {
+    "id": "creativeforge:incomplete_flux_matrix"
+  },
+  "results": [
+    {
+      "id": "creativeforge:flux_matrix"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_flux_matrix"
+        },
+        {
+          "item": "creativeforge:resonant_lattice"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_flux_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_flux_matrix"
+        },
+        {
+          "item": "creativeforge:quantum_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_flux_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_flux_matrix"
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_flux_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "creativeforge:incomplete_flux_matrix"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "id": "creativeforge:incomplete_flux_matrix"
+        }
+      ]
+    }
+  ]
+}

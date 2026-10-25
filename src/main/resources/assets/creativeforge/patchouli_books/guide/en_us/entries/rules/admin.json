@@ -1,0 +1,12 @@
+{
+  "name": "Commands",
+  "icon": "minecraft:command_block",
+  "category": "creativeforge:rules",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Op level 2:$(li)/creativeforge counts: made / cap per item$(li)/creativeforge set <item> <n>: overwrite a counter$(li)/creativeforge reset <item>: set it to 0$(br2)Items: creative_crate, creative_fluid_tank, creative_motor."
+    }
+  ]
+}

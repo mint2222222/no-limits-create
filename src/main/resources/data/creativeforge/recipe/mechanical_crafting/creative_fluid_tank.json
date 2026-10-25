@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "show_notification": false,
+  "key": {
+    "K": {
+      "item": "creativeforge:singularity_core"
+    },
+    "M": {
+      "item": "creativeforge:flux_matrix"
+    },
+    "Q": {
+      "item": "creativeforge:quantum_circuit"
+    },
+    "L": {
+      "item": "creativeforge:resonant_lattice"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "pattern": [
+    "TQTQT",
+    "LKMKL",
+    "TMQMT",
+    "LKMKL",
+    "TQTQT"
+  ],
+  "result": {
+    "id": "create:creative_fluid_tank",
+    "count": 1
+  }
+}

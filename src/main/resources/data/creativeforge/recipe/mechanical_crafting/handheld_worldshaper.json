@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "show_notification": false,
+  "key": {
+    "M": {
+      "item": "creativeforge:flux_matrix"
+    },
+    "Q": {
+      "item": "creativeforge:quantum_circuit"
+    },
+    "L": {
+      "item": "creativeforge:resonant_lattice"
+    },
+    "R": {
+      "item": "create:refined_radiance"
+    },
+    "S": {
+      "item": "create:shadow_steel"
+    }
+  },
+  "pattern": [
+    " RSMMSR ",
+    "RMQLLQMR",
+    "SQMLLMQS",
+    "MLMQQMLM",
+    "MLMQQMLM",
+    "SQMLLMQS",
+    "RMQLLQMR",
+    " RSMMSR "
+  ],
+  "result": {
+    "id": "create:handheld_worldshaper",
+    "count": 1
+  }
+}

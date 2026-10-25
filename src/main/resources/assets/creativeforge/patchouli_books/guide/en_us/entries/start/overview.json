@@ -1,0 +1,18 @@
+{
+  "name": "Overview",
+  "icon": "creativeforge:singularity_core",
+  "category": "creativeforge:start",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "creativeforge:singularity_core",
+      "text": "Creative Forge makes Create's creative items craftable, through long automated chains that end in a $(l)mechanical crafter$() grid.",
+      "title": "Creative Forge"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The strongest items are $(l)capped per world$(): a server only ever gets a few creative crates, fluid tanks and motors. See $(l:creativeforge:rules/cap)How the Cap Works$(/l).$(br2)The chain: raw materials, then four components, then the $(l:creativeforge:components/singularity_core)Singularity Core$(/l), then a creative item."
+    }
+  ]
+}

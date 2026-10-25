@@ -1,0 +1,34 @@
+{
+  "name": "Creative Worldshaper",
+  "icon": "create:handheld_worldshaper",
+  "category": "creativeforge:creative",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:handheld_worldshaper",
+      "text": "Creative terrain tool. No cores. $(l)Core cost: 0$(). Uncapped."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "8x8 mechanical crafting, corners empty (60 parts do not fit 7x7; crafter grids go up to 9x9):$(li)8 Refined Radiance$(li)8 Shadow Steel$(li)20 Flux Matrix$(li)12 Quantum Circuit$(li)12 Resonant Lattice",
+      "title": "Recipe"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "creativeforge:textures/gui/guide/grid_handheld_worldshaper.png"
+      ],
+      "title": "Crafter Grid",
+      "border": true,
+      "text": "Lay the crafters out like this. Letters: see $(l:creativeforge:creative/crafter_grids)Crafter Grids$(/l)."
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "creativeforge:creative/crafter_grids",
+        "creativeforge:rules/cap"
+      ]
+    }
+  ]
+}

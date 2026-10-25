@@ -1,0 +1,17 @@
+{
+  "name": "Getting Started",
+  "icon": "create:mechanical_crafter",
+  "category": "creativeforge:start",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Build these first, in order:$(li)Create basics: andesite alloy, shafts, cogs, a steady power source$(li)Brass and a $(l)superheated$() mixer (blaze burner fed with a blaze cake)$(li)A sequenced assembly line: depot or belt, deployers, mechanical press, spout",
+      "title": "First Steps"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Precision mechanisms and electron tubes (Create's own assembly recipes)$(li)A mechanical crafter grid up to 8x8, powered by a cogwheel touching one crafter$(br2)Then make the $(l:creativeforge:start/raw_materials)raw materials$(/l)."
+    }
+  ]
+}

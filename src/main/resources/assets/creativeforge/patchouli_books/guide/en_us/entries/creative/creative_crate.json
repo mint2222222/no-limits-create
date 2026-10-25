@@ -1,0 +1,35 @@
+{
+  "name": "Creative Crate",
+  "icon": "create:creative_crate",
+  "category": "creativeforge:creative",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:creative_crate",
+      "text": "Endless items: the most broken, so the most cores. $(l)Core cost: 5$(). Cap: 3 per world (config 0-3)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5x5 mechanical crafting:$(li)4 Item Vault$(li)8 Resonant Lattice$(li)5 Singularity Core$(li)4 Quantum Circuit$(li)4 Flux Matrix",
+      "title": "Recipe"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "creativeforge:textures/gui/guide/grid_creative_crate.png"
+      ],
+      "title": "Crafter Grid",
+      "border": true,
+      "text": "Lay the crafters out like this. Letters: see $(l:creativeforge:creative/crafter_grids)Crafter Grids$(/l)."
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "creativeforge:creative/crafter_grids",
+        "creativeforge:rules/cap",
+        "creativeforge:components/singularity_core"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "itemGroup.creativeforge": "Creative Forge",
+  "item.creativeforge.singularity_core": "Singularity Core",
+  "item.creativeforge.incomplete_singularity_core": "Incomplete Singularity Core",
+  "item.creativeforge.resonant_lattice": "Resonant Lattice",
+  "item.creativeforge.incomplete_resonant_lattice": "Incomplete Resonant Lattice",
+  "item.creativeforge.quantum_circuit": "Quantum Circuit",
+  "item.creativeforge.incomplete_quantum_circuit": "Incomplete Quantum Circuit",
+  "item.creativeforge.flux_alloy": "Flux Alloy",
+  "item.creativeforge.flux_matrix": "Flux Matrix",
+  "item.creativeforge.incomplete_flux_matrix": "Incomplete Flux Matrix",
+  "item.creativeforge.incomplete_chromatic_compound": "Incomplete Chromatic Compound",
+  "tooltip.creativeforge.forged": "Forged: %s / %s (%s left)",
+  "tooltip.creativeforge.uncapped": "Uncapped",
+  "tooltip.creativeforge.disabled": "Disabled"
+}

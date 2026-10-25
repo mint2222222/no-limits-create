@@ -1,0 +1,35 @@
+{
+  "name": "Creative Motor",
+  "icon": "create:creative_motor",
+  "category": "creativeforge:creative",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:creative_motor",
+      "text": "Free rotation at any speed. Really difficult. $(l)Core cost: 5$(). Cap: 20 per world (config 0-20)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "7x7 mechanical crafting:$(li)14 Quantum Circuit$(li)14 Resonant Lattice$(li)16 Flux Matrix$(li)5 Singularity Core",
+      "title": "Recipe"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "creativeforge:textures/gui/guide/grid_creative_motor.png"
+      ],
+      "title": "Crafter Grid",
+      "border": true,
+      "text": "Lay the crafters out like this. Letters: see $(l:creativeforge:creative/crafter_grids)Crafter Grids$(/l)."
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "creativeforge:creative/crafter_grids",
+        "creativeforge:rules/cap",
+        "creativeforge:components/singularity_core"
+      ]
+    }
+  ]
+}

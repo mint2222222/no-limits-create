@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "show_notification": false,
+  "key": {
+    "K": {
+      "item": "creativeforge:singularity_core"
+    },
+    "M": {
+      "item": "creativeforge:flux_matrix"
+    },
+    "Q": {
+      "item": "creativeforge:quantum_circuit"
+    },
+    "L": {
+      "item": "creativeforge:resonant_lattice"
+    }
+  },
+  "pattern": [
+    "QLMLMLQ",
+    "LQMKMQL",
+    "MMQLQMM",
+    "QKLKLKQ",
+    "MMQLQMM",
+    "LQMKMQL",
+    "QLMLMLQ"
+  ],
+  "result": {
+    "id": "create:creative_motor",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Config and Audit",
+  "icon": "create:wrench",
+  "category": "creativeforge:rules",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "File: serverconfig/creativeforge-server.toml in the world folder.$(li)[creative_crate], [creative_fluid_tank], [creative_motor]: enabled, cap$(li)[creative_blaze_cake], [worldshaper]: enabled$(li)strictAudit (default false)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "At server start every recipe is checked. One that makes a creative item outside mechanical crafting is logged as an error, because the cap cannot see it. With $(l)strictAudit$() on, the server refuses to start instead."
+    }
+  ]
+}

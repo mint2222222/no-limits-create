@@ -1,0 +1,34 @@
+{
+  "name": "Creative Blaze Cake",
+  "icon": "create:creative_blaze_cake",
+  "category": "creativeforge:creative",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:creative_blaze_cake",
+      "text": "Permanent superheat. Very expensive, but no cores. $(l)Core cost: 0$(). Uncapped."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "7x7 mechanical crafting:$(li)4 Blaze Cake$(li)8 Resonant Lattice$(li)16 Quantum Circuit$(li)8 Chromatic Compound$(li)13 Flux Matrix",
+      "title": "Recipe"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "creativeforge:textures/gui/guide/grid_creative_blaze_cake.png"
+      ],
+      "title": "Crafter Grid",
+      "border": true,
+      "text": "Lay the crafters out like this. Letters: see $(l:creativeforge:creative/crafter_grids)Crafter Grids$(/l)."
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "creativeforge:creative/crafter_grids",
+        "creativeforge:rules/cap"
+      ]
+    }
+  ]
+}

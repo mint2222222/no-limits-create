@@ -1,0 +1,28 @@
+{
+  "name": "Resonant Lattice",
+  "icon": "creativeforge:resonant_lattice",
+  "category": "creativeforge:components",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "creativeforge:resonant_lattice",
+      "text": "A brass lattice riveted onto a sturdy sheet. The base part of every final recipe."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Sequenced assembly$() on a $(item)Sturdy Sheet$(), 4 loops of:$(li)deploy Precision Mechanism$(li)press$(li)deploy Brass Sheet$(li)fill 250 mB lava"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Total per lattice: $(li)1 Sturdy Sheet$(li)4 Precision Mechanism$(li)4 Brass Sheet$(li)1000 mB lava"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "creativeforge:components/flux_matrix",
+        "creativeforge:creative/crafter_grids"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Raw Materials",
+  "icon": "create:chromatic_compound",
+  "category": "creativeforge:start",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create 6.0.10 has $(l)no survival recipe$() for Chromatic Compound, Refined Radiance or Shadow Steel. This mod adds one for each, so the chain is playable.$(br2)A modpack that already makes them can override these recipe ids with a datapack.",
+      "title": "Added by this mod"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:chromatic_compound",
+      "text": "One compound costs: $(li)1 Polished Rose Quartz$(li)5 Precision Mechanism$(li)5 Electron Tube$(li)2500 mB lava"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Sequenced assembly$() on a $(item)Polished Rose Quartz$(), 5 loops of:$(li)deploy Precision Mechanism$(li)deploy Electron Tube$(li)fill 500 mB lava$(li)press"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:refined_radiance",
+      "text": "$(l)Superheated mixing$(): 1 Chromatic Compound, 4 Glowstone Dust, 2 Amethyst Shard. One per batch."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:shadow_steel",
+      "text": "$(l)Superheated mixing$(): 1 Chromatic Compound, 2 Obsidian, 1 Ender Pearl. One per batch."
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "creativeforge:components/flux_alloy",
+        "creativeforge:components/singularity_core",
+        "creativeforge:components/core_economy"
+      ]
+    }
+  ]
+}

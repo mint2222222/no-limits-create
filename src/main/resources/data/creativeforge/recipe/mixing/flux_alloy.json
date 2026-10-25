@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "create:refined_radiance"
+    },
+    {
+      "item": "create:shadow_steel"
+    },
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:brass_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "creativeforge:flux_alloy",
+      "count": 2
+    }
+  ]
+}
